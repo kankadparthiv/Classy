@@ -1,0 +1,36 @@
+body{
+    background-color: whitesmoke;
+    font-family:Montserrat, sans-serif;
+}
+.nav-main{
+    background-color: black;
+
+}
+.icon{
+    padding: 0.3rem;
+    color:white;
+}
+.logo{
+    
+    display: flex;
+    justify-content: center;
+}
+.navli{
+    font-weight: bold;
+    padding:0.7rem;
+}
+.text{
+    text-align: center;
+    padding:0 50px;
+    letter-spacing: 3px;
+    color:rgb(92,92,92);
+}
+.img-class{
+    padding: 20px;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    text-align: left;
+    
+}

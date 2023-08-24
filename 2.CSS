@@ -1,0 +1,72 @@
+body{
+    background-color: whitesmoke;
+    font-family:Montserrat, sans-serif;
+}
+.nav-main{
+    background-color: black;
+    position: fixed;
+    width: 94.6%;
+}
+.icon{
+    padding: 0.3rem;
+    color:white;
+}
+.logo{
+    
+    display: flex;
+    justify-content: center;
+}
+.navli{
+    font-weight: bold;
+    padding:0.7rem;
+}
+.text{
+    text-align: center;
+    padding:0 50px;
+    letter-spacing: 3px;
+    color:rgb(92,92,92);
+}
+.img-class{
+    padding: 10px;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    text-align: left;
+    
+}
+.paginations{
+    justify-content: center;
+    background-color: #f2f2f2;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.active{
+    background-color: #e7cfcf;
+    border-radius: 5px;
+    color: white;
+}
+.paginations a{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .3s linear;
+    color:#646262;
+}
+.paginations a:hover{
+    color:blue;
+}
+.paginations .page:hover{
+    background-color:#e7cfcf;
+    color: white;
+    border-radius: 5px;
+}
+.img{
+    width: 100%;
+    height: 80%;
+}

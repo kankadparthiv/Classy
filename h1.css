@@ -1,0 +1,144 @@
+body{
+    background-color: whitesmoke;
+    font-family:Montserrat, sans-serif;
+}
+.nav-main{
+    position: fixed;
+    width:93.7%;
+} 
+.img-slide{
+    width:100%;
+    height:675px;
+    cursor: pointer;
+    background-image: url("Basic_Colours_Comeback_1_1200x.png");
+    background-size: 100% 100%;
+    
+}
+.img-slide:hover{
+    animation: slider 9s infinite;
+}
+@keyframes slider {
+    0%{
+        background-image: url("Basic_Colours_Comeback_1_1200x.png");
+        width:100%;
+    height:675px;
+    }
+    33%{
+        background-image: url("Basic_Colours_Comeback_1_1200x.png");
+        width:100%;
+    height:675px;
+    }
+    33.01%{
+        background-image:url("Black_and_Gray_Modern_Fashion_Blog_Banner_1800_x_800_px_9ab1537e-cce7-4430-b011-4f316ee4c825_1200x.png");
+        width:100%;
+    height:800px;
+    }
+    66%{
+        background-image:url("Black_and_Gray_Modern_Fashion_Blog_Banner_1800_x_800_px_9ab1537e-cce7-4430-b011-4f316ee4c825_1200x.png");
+        width:100%;
+    height:800px;
+    }
+    66.01%{
+        background-image:url("89_1200x.png");
+        width:100%;
+    height:1200px;
+    }
+    100%{
+        background-image: url("89_1200x.png");
+        width:100%;
+    height:1200px;
+    }
+    
+}
+
+.nav-main:hover{
+    background-color: black;
+    color:white;
+}
+.nav-main:hover .icon{
+    color:white;
+}
+.logo{
+    
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    padding: 0.3rem;
+    
+}
+.navli{
+    font-weight: bold;
+    padding:0.7rem;
+}
+.text{
+    text-align: center;
+    padding:0 50px;
+    letter-spacing: 3px;
+    color:rgb(92,92,92);
+}
+.img-class{
+
+    padding: 10px;
+} 
+
+.btn-center{
+    text-align: center;
+}
+.shop{
+overflow: hidden;
+color: white;
+font-weight: bold;
+text-align: left;
+background-position: center;
+}
+#shop-hover1{
+    width:360px;
+    height:461px;
+    cursor: pointer;
+    background-image: url("4b.png");
+    background-size: 100% 100%;
+    transition: transform 3s;
+    padding: 30px;
+}
+
+#shop-hover1:hover{
+    transform: scale(1.1);
+}
+#shop-hover2{
+    width:360px;
+    height:461px;
+    cursor: pointer;
+    background-image: url("3d.jpg");
+    background-size: 100% 100%;
+    transition: transform 3s;
+    padding: 30px;
+    
+}
+
+#shop-hover2:hover{
+    transform: scale(1.1);
+}
+#shop-hover3{
+    width:360px;
+    height:461px;
+    cursor: pointer;
+    background-image: url("5m.png");
+    background-size: 100% 100%;
+    transition: transform 3s;
+    padding: 30px;
+    
+}
+
+#shop-hover3:hover{
+    transform: scale(1.1);
+}
+.footer{
+    background-color: black;
+    text-align: left;
+    
+}
+.img{
+    width: 100%;
+    height:80%;
+}
